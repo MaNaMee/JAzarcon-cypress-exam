@@ -1,6 +1,5 @@
 # JAzarcon-cypress-exam
 
-
 The TAPH webapp is a sample learning webapp where i conducted my cypress exam. this website contains a sample registration page where the user can register as a user or as a "Quiz Master" roles . The website also contains a login page, and a basic dashboard for the user and quiz master roles.
 
 # Spec Files
@@ -14,11 +13,11 @@ The TAPH webapp is a sample learning webapp where i conducted my cypress exam. t
 2. Clone the Repository
     ```bash
     cd ~/Desktop/Cypress_Testing
-    git clone https://github.com/MaNaMee/Training_Cypress_Repo.git
+    git clone https://github.com/MaNaMee/JAzarcon-cypress-exam
     ```
 3. Install Dependencies
    ```bash
-    cd Training_Cypress_Repo
+    cd T
     npm install
     ```
 4. Install cypress
@@ -28,8 +27,10 @@ The TAPH webapp is a sample learning webapp where i conducted my cypress exam. t
 
 # Third partty dependencies
 - faker.js
- - install faker.js by using this command in the termnila
- - npm install --save-dev @faker-js/faker
+ - install faker.js by using this command in the terminal
+ ```bash
+   npm install --save-dev @faker-js/faker
+ ```
    
 # Running the Tests
  - Contained in this repo is a cypress spec file (a test code/file) for the login feature of saucedemo.com. This file can be run in headed and in headless mode.
@@ -43,7 +44,7 @@ The TAPH webapp is a sample learning webapp where i conducted my cypress exam. t
     ```
 2. Once the client for cypress is open, click E2E Testing
 3. Choose a preferred browser
-4. Once cypress is opened in the preferred browser, click login.cy.js
+4. Once cypress is opened in the preferred browser, click registration.cy.js
 
 ## Headless mode (NO UI)
 
@@ -57,6 +58,6 @@ The TAPH webapp is a sample learning webapp where i conducted my cypress exam. t
 2. Save package.json
 3. type in cmd
    ``` bash
-   npm run login-test
+   npm run Reg-Test
    ```
 
